@@ -3,7 +3,7 @@ from random import randint
 import sqlite3 
 
 
-conn = sqlite3.connect('E:\#Laps\#Programming\Python\GOIT\PyWeb14-main\module06\HW\Home_work.db')
+conn = sqlite3.connect('Home_work.db')
 cursor = conn.cursor()
 
 fake = Faker()
