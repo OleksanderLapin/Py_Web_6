@@ -1,7 +1,7 @@
 import os
 import sqlite3
 
-folder_path = 'E:\#Laps\#Programming\Python\GOIT\PyWeb14-main\module06\HW'
+folder_path = '\HW'
 
 conn = sqlite3.connect(f'{folder_path}\Home_work.db')
 cursor = conn.cursor()
